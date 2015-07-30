@@ -1,7 +1,7 @@
 {
     "push": {
       "name": "",
-      "vcs": true
+      "vcs": false
     },
     "variables": {
         "atlas_username": "{{env `ATLAS_USERNAME`}}",
@@ -17,7 +17,8 @@
                 "scripts/vagrant.sh",
                 "scripts/dep.sh",
                 "scripts/cleanup.sh",
-                "scripts/zerodisk.sh"
+                "scripts/zerodisk.sh",
+				"scripts/git.sh"
             ],
             "override": {
                 "virtualbox-iso": {
